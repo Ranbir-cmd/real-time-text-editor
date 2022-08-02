@@ -1,0 +1,133 @@
+.homeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+
+  height: 100vh;
+}
+.formWrapper {
+  background: #2c3639;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+
+  width: 400px;
+  max-width: 90%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mainLabel {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn {
+  background: #f15412;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover {
+  background: #f24c4c;
+}
+
+.createInfo {
+  margin: 0 auto;
+  color: #aaa;
+}
+
+.createNewBtn {
+  color: #f15412;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover {
+  color: #f24c4c;
+  border-bottom: 1px solid #f15412;
+
+  border-color: #f24c4c;
+}
+
+/* EDITOR PAGE  */
+.mainWrapper {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  /* height: 100vh; */
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.aside-inner {
+  flex: 1;
+}
+
+.logo {
+  border-bottom: 2px solid #3c4d52;
+}
+
+.aside-outer {
+  display: flex;
+  flex-direction: column;
+}
+.leaveRoom {
+  margin-top: 20px;
+  width: 100%;
+  background: #8d0b1c;
+  color: #fff;
+}
+
+/* .copyRoom {
+} */
+
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
